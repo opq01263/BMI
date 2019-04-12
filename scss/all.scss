@@ -110,7 +110,7 @@ table {
         }
         input{
            float: center;
-           margin: 20px 45% 5px 45%;
+           margin: 20px 460px;
            background: rgba(255,255,255,0.18);
            border-radius: 10px;
         }
@@ -124,13 +124,13 @@ table {
             max-width: 117px;
             max-height: 117px;
             color: #000;
-            margin: 0 46%;
+            margin: 0 470px;
           
         }
     }
     @media (max-width:945px){
         .header img{
-                margin: 85px; 
+            display: none;
         }
         .headertext{
             margin:70px 0 0 -10px;
@@ -139,13 +139,10 @@ table {
                 margin:90px 40px;
               }
               .BMIhistory input{
-                  margin: 0 43%;
+                  margin: 0 330px;
               }
     }
     @media(max-width:767px){
-        .header img{
-            display: none;
-        }
         .headertext{
             float: none;
             margin:0;
@@ -156,8 +153,8 @@ table {
             }
               .btn{
                 float: none;
-                margin:0 0 30px 0;
-                padding: 3% 35%;
+                margin:0;
+                padding: 0 35%;
               }
               .footer img{
                 margin: 0 40%;
@@ -169,7 +166,7 @@ table {
             padding: 3% 20%;
         } 
         .BMIhistory input{
-            margin: 0 37%;
+            margin: 0 155px;
         }
     }
     @media(max-width:411px){
@@ -177,17 +174,15 @@ table {
             padding: 3% 12%;
         } 
         .BMIhistory input{
-             margin: 0 36%;
+             margin: 0 130px;
          }
      }
-     @media(max-width:376px){
-        .headertext{
-            padding: 3% 14%;
-        } 
+     @media(max-width:360px){
         .BMIhistory input{
-             margin: 0 36%;
+             margin: 0 105px;
          }
      }
+    
     .clearfix{
         clear: both;
     }
