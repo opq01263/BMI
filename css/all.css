@@ -130,6 +130,8 @@ table {
     margin: 0 330px; } }
 
 @media (max-width: 767px) {
+  .header {
+    height: 250px; }
   .header img {
     display: none; }
   .headertext {
@@ -141,7 +143,10 @@ table {
   .btn {
     float: none;
     margin: 0;
-    padding: 0  0 50px 35%; }
+    padding: 0 0 20px 40%; }
+  .btnr {
+    width: 80px;
+    height: 80px; }
   .footer img {
     margin: 0 40%; } }
 
