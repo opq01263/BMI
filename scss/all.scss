@@ -130,19 +130,22 @@ table {
     }
     @media (max-width:945px){
         .header img{
-            display: none;
+                margin: 85px; 
         }
         .headertext{
             margin:70px 0 0 -10px;
               }
               .btn{
-                margin:0 0 90px 40px;
+                margin:90px 40px;
               }
               .BMIhistory input{
                   margin: 0 330px;
               }
     }
     @media(max-width:767px){
+        .header img{
+            display: none;
+        }
         .headertext{
             float: none;
             margin:0;
@@ -153,6 +156,7 @@ table {
             }
               .btn{
                 float: none;
+                margin:0 0 10% 0;
                 padding: 0 35%;
               }
               .footer img{
@@ -177,8 +181,11 @@ table {
          }
      }
      @media(max-width:360px){
+        .headertext{
+            padding: 3% 10%;
+        }
         .BMIhistory input{
-             margin: 0 105px;
+             margin: 0 100px;
          }
      }
     
