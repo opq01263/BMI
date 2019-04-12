@@ -131,7 +131,7 @@ table {
 
 @media (max-width: 767px) {
   .header {
-    height: 350px; }
+    height: 320px; }
   .header img {
     display: none; }
   .headertext {
