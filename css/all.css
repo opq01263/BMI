@@ -131,7 +131,7 @@ table {
 
 @media (max-width: 767px) {
   .header {
-    height: 250px; }
+    height: 350px; }
   .header img {
     display: none; }
   .headertext {
@@ -143,10 +143,7 @@ table {
   .btn {
     float: none;
     margin: 0;
-    padding: 0 0 20px 40%; }
-  .btnr {
-    width: 80px;
-    height: 80px; }
+    padding: 0  0 50px 35%; }
   .footer img {
     margin: 0 40%; } }
 
