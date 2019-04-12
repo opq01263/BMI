@@ -140,7 +140,7 @@ table {
       float: none; }
   .btn {
     float: none;
-    margin: 0;
+    margin: 15px 0;
     padding: 0 35%; }
   .footer img {
     margin: 0 40%; } }
