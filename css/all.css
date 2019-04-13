@@ -184,21 +184,21 @@ table {
 
 @media (max-width: 576px) {
   .headertext {
-    padding: 3% 20%; }
+    padding: 3% 25%; }
   .BMIhistory input {
-    margin: 0 155px; } }
+    margin: 0 160px; } }
 
 @media (max-width: 411px) {
   .headertext {
-    padding: 3% 12%; }
+    padding: 3% 17%; }
   .BMIhistory input {
-    margin: 0 130px; } }
+    margin: 0 135px; } }
 
 @media (max-width: 360px) {
   .headertext {
-    padding: 3% 10%; }
+    padding: 3% 15%; }
   .BMIhistory input {
-    margin: 0 100px; } }
+    margin: 0 105px; } }
 
 .clearfix {
   clear: both; }
