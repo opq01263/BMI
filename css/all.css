@@ -119,6 +119,39 @@ table {
     color: #000;
     margin: 0 470px; }
 
+.listli {
+  background: #fff;
+  max-width: 600px;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 3px;
+  -webkit-box-shadow: 10px 10px 10px  #4A4A4A;
+  box-shadow: 10px 10px 10px  #4A4A4A; }
+  .listli p {
+    display: inline;
+    margin: 0 10px;
+    font-family: SFNSDisplay;
+    font-size: 20px;
+    color: #4A4A4A; }
+
+.listlidiv {
+  margin: 0 auto; }
+
+.red {
+  border-left: 45px solid  #FF1200; }
+
+.orange2 {
+  border-left: 45px solid  #FF6C02; }
+
+.orange1 {
+  border-left: 45px solid #FF982D; }
+
+.green {
+  border-left: 45px solid  #86D73F; }
+
+.blue {
+  border-left: 45px solid #31BAF9; }
+
 @media (max-width: 945px) {
   .header img {
     margin: 85px; }
@@ -145,7 +178,9 @@ table {
     margin: 0;
     padding: 0  0 0 35%; }
   .footer img {
-    margin: 0 40%; } }
+    margin: 0 40%; }
+  .listli p {
+    display: inline-block; } }
 
 @media (max-width: 576px) {
   .headertext {
