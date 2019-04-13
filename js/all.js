@@ -65,30 +65,32 @@ function BMIData(e) {
         lightBar = 'blue';
     };
     var NowDate = new Date();
-    var todo={
+    var todo = {
         tall: t,
         weight: w,
         BMI: BMI,
         status: status,
-        lightBar:lightBar,
+        lightBar: lightBar,
         //計算時間
         time: NowDate.toDateString(),
     };
     data.push(todo);
-    localStorage.setItem('listData',JSON.stringify(data));
+    localStorage.setItem('listData', JSON.stringify(data));
     updateList(data);
 };
-function  updateList(data){
-    str='';
-    var len=data.length;
-    for (i=0;i<len;i++){
-        str+='<li class="listli '+data[i].lightBar+'"><div class="listlidiv"><p>'+data[i].status+'</p><p>BMI：'+data[i].BMI+'</p><p>身高：'+data[i].tall+'</p><p>體重：'+data[i].weight+'</p><p>'+data[i].time+'</p></div><li>'
+function updateList(data) {
+    str = '';
+    var len = data.length;
+    //變數 = 初始值 ; 變數 < 限制值 ; 變數 + 步進值
+    for (i=(len-1);i>=0;i--) {
+        str += '<li class="listli ' + data[i].lightBar + '"><div class="listlidiv"><p>' + data[i].status + '</p><p>BMI：' + data[i].BMI + '</p><p>身高：' + data[i].tall + '</p><p>體重：' + data[i].weight + '</p><p>' + data[i].time + '</p></div><li>'
     }
-    list.innerHTML=str;
+    list.innerHTML = str;
+
 }
-function deleteData(e){
-e.preventDefault();
-localStorage.removeItem('listData');
-data = [];
-updateList(data);  
+function deleteData(e) {
+    e.preventDefault();
+    localStorage.removeItem('listData');
+    data = [];
+    updateList(data);
 }
