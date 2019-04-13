@@ -81,7 +81,7 @@ function BMIData(e) {
 function  updateList(data){
     str='';
     var len=data.length;
-    for (i=0;i<len;i++){
+    for (i = (len - 1); i >= 0; i--){
         str+='<li class="listli '+data[i].lightBar+'"><div class="listlidiv"><p>'+data[i].status+'</p><p>BMI：'+data[i].BMI+'</p><p>身高：'+data[i].tall+'</p><p>體重：'+data[i].weight+'</p><p>'+data[i].time+'</p></div><li>'
     }
     list.innerHTML=str;
